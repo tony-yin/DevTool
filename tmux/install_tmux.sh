@@ -11,7 +11,7 @@ ln -s /usr/local/lib/libevent-2.1.so.6 /usr/lib64/libevent-2.1.so.6
 
 # tmux
 tar -zxvf $TMUX_PATH/tmux-2.6.tar.gz
-ce $TMUX_PATH/tmux-2.6
+cd $TMUX_PATH/tmux-2.6
 ./configure 
 make
 make install
